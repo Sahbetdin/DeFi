@@ -10,6 +10,9 @@ lps = [
 	Pair(4310194783973, 22496742244741)
 	]
 
+for pair in lps:
+	assert isinstance(pair.base, (int,float)), "Error! Check base value for input."
+	assert isinstance(pair.quote, (int,float)), "Error! Check quote value for input."
 p = 0.3/100
 
 #serving params:
