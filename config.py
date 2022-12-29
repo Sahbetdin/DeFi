@@ -3,11 +3,12 @@ from collections import namedtuple
 Pair = namedtuple("Pair",["base","quote"])
 #givens
 lps = [
-	Pair(166,3), 
-	Pair(766, 724), 
-	Pair(1, 10), 
-	Pair(2846, 1722), 
-	Pair(4_360, 22_500)]
+	Pair(166740188573, 3753139396),
+	Pair(766050680304, 724520588560),
+	Pair(1051487855, 10457920653),
+	Pair(2846977754550, 1722571966294),
+	Pair(4310194783973, 22496742244741)
+	]
 
 p = 0.3/100
 
