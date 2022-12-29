@@ -33,7 +33,7 @@ def linspace(left: float, right: float, n: int) -> List[float]:
 
 def get_function_values(f: Callable, lps: List[Pair], points: List[float], p: float) -> List[float]:
     """
-    ???
+    x is da in this case
     """
     values = [None] * len(points)
     for i, x in enumerate(points):
